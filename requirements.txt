@@ -1,5 +1,10 @@
 openai
 langchain
 streamlit
-anthropic
+watchdog
 pydantic<2
+python-dotenv
+streamlit-oauth
+google-api-python-client
+Pillow
+boto3

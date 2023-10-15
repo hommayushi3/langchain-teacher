@@ -1,0 +1,24 @@
+# Understanding ChatGPT for Non-Technical Instructional Designers
+
+## Introduction
+ChatGPT is a conversational AI model that can generate human-like text based on the input it receives. But what does that mean for you as an instructional designer? Let's break it down in simple terms.
+
+## What is ChatGPT?
+
+### The Basics
+- **ChatGPT** stands for "Chat Generative Pre-trained Transformer."
+- It's a machine learning model trained on a vast amount of text data.
+- It can answer questions, write content, and even chat like a human.
+
+### How Does It Work?
+Imagine you have a friend who has read almost every book, article, and forum post out there. You can ask this friend any question or ask them to write something for you, and they'll do it based on what they've read. ChatGPT works similarly, but it's a computer program, not a person.
+
+## Why Should Instructional Designers Care?
+
+1. **Content Generation**: Need to create quizzes, assignments, or even entire courses? ChatGPT can help you draft these materials.
+2. **FAQs and Support**: You can set up ChatGPT to answer common questions that students might have, freeing up your time.
+3. **Personalization**: ChatGPT can help tailor learning experiences to individual needs.
+
+## Key Takeaways
+- ChatGPT is a powerful tool that can generate text like a human.
+- It can be a valuable asset in content creation, student support, and course personalization.

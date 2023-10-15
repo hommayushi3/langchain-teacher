@@ -1,0 +1,72 @@
+# Two-Digit Multiplication Lesson
+
+## Objective
+To learn the step-by-step process of multiplying two two-digit numbers.
+
+## Prerequisites
+- Basic knowledge of single-digit multiplication.
+- Understanding of the concept of place value (tens and ones).
+
+## Materials
+- Pencil
+- Paper
+
+## Overview
+Two-digit multiplication involves multiple steps. You multiply various combinations of tens and ones, and then sum them up. The key is to keep track of the place values.
+
+## Steps
+
+### Step 1: Set up the Problem
+Write one of the two-digit numbers on the top and the other number on the bottom, aligning them to the right.
+
+```
+  23
+x 47
+```
+
+### Step 2: Multiply Ones Place of Second Number with the First Number
+First, multiply the ones digit of the second number by the entire first number. Write down the product below the line.
+
+```
+  23
+x 47
+----
+ 161  (23 * 7)
+```
+
+### Step 3: Multiply Tens Place of Second Number with the First Number
+Now multiply the tens digit of the second number by the entire first number. Once you have the product, add a zero to the end. Write this number on a new line below your previous answer.
+
+```
+  23
+x 47
+----
+ 161  
+ 920   (23 * 4, then add a zero)
+```
+
+### Step 4: Add the Products
+Draw a line below the two products you've written down. Add them to find the final answer.
+
+```
+  23
+x 47
+----
+ 161
+ 920
+----
+1081
+```
+
+So, 23 multiplied by 47 equals 1081.
+
+## Exercises
+
+1. Multiply 45 by 23.
+2. Multiply 52 by 39.
+3. Multiply 67 by 14.
+4. Multiply 89 by 76.
+5. Multiply 32 by 54.
+
+## Summary
+Multiplying two-digit numbers may seem complicated, but breaking it down into smaller steps makes it manageable. Always remember to keep track of place values to get an accurate result.
