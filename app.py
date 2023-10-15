@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set environment variables
-ALLOWED_USERS = os.environ.get('ALLOWED_USERS', [])
+ALLOWED_USERS = os.environ.get('ALLOWED_USERS', '').split(',')
 AUTHORIZE_URL = os.environ.get('AUTHORIZE_URL')
 TOKEN_URL = os.environ.get('TOKEN_URL')
 REFRESH_TOKEN_URL = os.environ.get('REFRESH_TOKEN_URL')
