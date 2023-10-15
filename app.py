@@ -142,7 +142,7 @@ else:
     lesson_description = lesson_info["description"]
 
     # Clear chat session if dropdown option or radio button changes
-    if st.session_state.get("current_lesson") != lesson_selection or st.session_state.get("current_lesson_type") != lesson_type:
+    if st.session_state.get("current_lesson") != lesson_selection:
         user_name = st.session_state['profile']['names'][0]['givenName']
         st.session_state["current_lesson"] = lesson_selection
         st.session_state["messages"] = [
@@ -186,7 +186,7 @@ else:
             response = chain(
                 {"input": prompt, "chat_history": st.session_state.messages[-20:]},
                 include_run_info=True,
-                tags=[lesson_selection, lesson_type]
+                tags=[lesson_selection]
             )
             st.session_state.messages.append(HumanMessage(content=prompt))
             st.session_state.messages.append(AIMessage(content=response[chain.output_key]))
