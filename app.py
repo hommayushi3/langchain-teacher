@@ -16,6 +16,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set environment variables
+ALLOWED_USERS = os.environ.get('ALLOWED_USERS', [])
 AUTHORIZE_URL = os.environ.get('AUTHORIZE_URL')
 TOKEN_URL = os.environ.get('TOKEN_URL')
 REFRESH_TOKEN_URL = os.environ.get('REFRESH_TOKEN_URL')
@@ -129,6 +130,11 @@ if 'profile' not in st.session_state:
         ).execute()
         st.rerun()
 else:
+    # If user is not in allowed users, show error message and stop execution
+    if 0 < len(ALLOWED_USERS) and st.session_state['profile']['emailAddresses'][0]['value'] not in ALLOWED_USERS:
+        st.error("You are not authorized to access this application.")
+        st.stop()
+
     if 'profile_photo_url' not in st.session_state and 'photos' in st.session_state['profile'] and \
             0 < len(st.session_state['profile']['photos']):
         st.session_state['profile_photo_url'] = st.session_state['profile']['photos'][0]['url']
